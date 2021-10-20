@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://i.pinimg.com/736x/9c/3b/4c/9c3b4c820f692afdf10b60ec0a022ae4.jpg" alt="Yuzzu" width="170" />
 
-## YUZZU-APIS
+## YUZZU-API'S
 
 </div>
 
@@ -17,14 +17,14 @@
 </p>
 
 ## ```INSTALL And UNINSTALL```
-> npm install yuzzu-apis
+> npm install yuzzu-api
 >  
-> npm uninstall yuzzu-apis
+> npm uninstall yuzzu-api
 
 
 ## ```Instagram```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const link = 'https://www.instagram.com/p/CVNkCZphLDI/?utm_medium=copy_link'
 
 yz.igdl(link)
@@ -34,7 +34,7 @@ yz.igdl(link)
 ```
 ## ```Wiki```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const judul = 'indonesia'
 
 yz.wiki(judul)
@@ -45,7 +45,7 @@ yz.wiki(judul)
 
 ## ```MediaFire```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const link = 'https://www.mediafire.com/file/sazboe4v31szd0m/b%252Atch-bot.zip/file'
 
 yz.mediafire(link)
@@ -56,7 +56,7 @@ yz.mediafire(link)
 
 ## ```Tik Tok```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const link = 'https://vt.tiktok.com/ZSeFf3Akc'
 
 yz.tiktok(link)
@@ -67,7 +67,7 @@ yz.tiktok(link)
 
 ## ```Herodetail```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const hero = 'Kagura'
 
 yz.herodetail(hero)
@@ -78,7 +78,7 @@ yz.herodetail(hero)
 
 ## ```Herolist```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 
 yz.herolist()
     .then(result => {
@@ -88,7 +88,7 @@ yz.herolist()
 
 ## ```Shoppe```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const judul = 'Baju'
 const limit = '10'
 
@@ -100,7 +100,7 @@ yz.shoppe(judul, limit)
 
 ## ```Otaku```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const judul = 'Naruto'
 
 yz.otaku(judul)
@@ -111,7 +111,7 @@ yz.otaku(judul)
 
 ## ```Film Search```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const judul = 'Raya'
 
 yz.film(judul)
@@ -122,7 +122,7 @@ yz.film(judul)
 
 ## ```Covid```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 
 yz.covid()
     .then(result => {
@@ -132,7 +132,7 @@ yz.covid()
 
 ## ```Twitter```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const link = 'Link Twitter -_-'
 
 yz.twitter(link)
@@ -143,7 +143,7 @@ yz.twitter(link)
 
 ## ```Pinterest```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const judul = 'Anime'
 
 yz.pinterest(judul)
@@ -154,7 +154,7 @@ yz.pinterest(judul)
 
 ## ```IG Story```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const user = 'jeromepolin'
 
 yz.igstory(user)
@@ -165,7 +165,7 @@ yz.igstory(user)
 
 ## ```IG Stalk```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const user = 'jeromepolin'
 
 yz.igstalk(link)
@@ -177,7 +177,7 @@ yz.igstalk(link)
 
 ## ```YouTube```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const link = 'https://youtu.be/NuaJynwvdIE'
 
 yz.ytdl(link)
@@ -187,7 +187,7 @@ yz.ytdl(link)
 ```
 ## ```Facebook```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const link = 'Link Facebook -_-'
 
 yz.fbdown(link)
@@ -198,7 +198,7 @@ yz.fbdown(link)
 
 ## ``` Play Store```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const judul = 'Wibu'
 
 yz.playstore(judul)
@@ -209,7 +209,7 @@ yz.playstore(judul)
 
 ## ```Lirik Lagu```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const judul = ' the nights'
 
 yz.lirik(judul)
@@ -220,7 +220,7 @@ yz.lirik(judul)
 
 ## ```Tebak Gambar```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 
 yz.tebakgambar()
     .then(result => {
@@ -230,7 +230,7 @@ yz.tebakgambar()
 
 ## ```Komik```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const judul = 'Naruto'
 
 yz.komiku(judul)
@@ -241,7 +241,7 @@ yz.komiku(judul)
 
 ## ```Link WhatsApp```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const judul = 'Wibu'
 
 yz.linkwa(judul)
@@ -252,7 +252,7 @@ yz.linkwa(judul)
 
 ## ```Wattpad```
 ``` 
-const yz = require('yuzzu-apis');
+const yz = require('yuzzu-api');
 const judul = 'hate'
 
 yz.wattpad(judul)
