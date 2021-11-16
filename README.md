@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.pinimg.com/736x/9c/3b/4c/9c3b4c820f692afdf10b60ec0a022ae4.jpg" alt="Yuzzu" width="170" />
+<img src="https://telegra.ph/file/de121b39dac4c20dbc480.jpg" alt="Kotz" width="170" />
 
 ## KOTZ-API'S
 
@@ -24,7 +24,7 @@
 
 ## ```Instagram```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const link = 'https://www.instagram.com/p/CVNkCZphLDI/?utm_medium=copy_link'
 
 zyapi.igdl(link)
@@ -34,7 +34,7 @@ zyapi.igdl(link)
 ```
 ## ```Wiki```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const judul = 'indonesia'
 
 zyapi.wiki(judul)
@@ -45,7 +45,7 @@ zyapi.wiki(judul)
 
 ## ```MediaFire```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const link = 'https://www.mediafire.com/file/sazboe4v31szd0m/b%252Atch-bot.zip/file'
 
 zyapi.mediafire(link)
@@ -56,7 +56,7 @@ zyapi.mediafire(link)
 
 ## ```Tik Tok```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const link = 'https://vt.tiktok.com/ZSeFf3Akc'
 
 zyapi.tiktok(link)
@@ -67,7 +67,7 @@ zyapi.tiktok(link)
 
 ## ```Herodetail```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const hero = 'Kagura'
 
 zyapi.herodetail(hero)
@@ -78,7 +78,7 @@ zyapi.herodetail(hero)
 
 ## ```Herolist```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 
 zyapi.herolist()
     .then(result => {
@@ -88,7 +88,7 @@ zyapi.herolist()
 
 ## ```Shoppe```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const judul = 'Baju'
 const limit = '10'
 
@@ -100,7 +100,7 @@ zyapi.shoppe(judul, limit)
 
 ## ```Otaku```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const judul = 'Naruto'
 
 zyapi.otaku(judul)
@@ -111,7 +111,7 @@ zyapi.otaku(judul)
 
 ## ```Film Search```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const judul = 'Raya'
 
 zyapi.film(judul)
@@ -122,7 +122,7 @@ zyapi.film(judul)
 
 ## ```Covid```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 
 zyapi.covid()
     .then(result => {
@@ -132,7 +132,7 @@ zyapi.covid()
 
 ## ```Twitter```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const link = 'Link Twitter -_-'
 
 zyapi.twitter(link)
@@ -143,7 +143,7 @@ zyapi.twitter(link)
 
 ## ```Pinterest```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const judul = 'Anime'
 
 zyapi.pinterest(judul)
@@ -154,7 +154,7 @@ zyapi.pinterest(judul)
 
 ## ```IG Story```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const user = 'jeromepolin'
 
 zyapi.igstory(user)
@@ -165,7 +165,7 @@ zyapi.igstory(user)
 
 ## ```IG Stalk```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const user = 'jeromepolin'
 
 zyapi.igstalk(link)
@@ -177,7 +177,7 @@ zyapi.igstalk(link)
 
 ## ```YouTube```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const link = 'https://youtu.be/NuaJynwvdIE'
 
 zyapi.ytdl(link)
@@ -187,7 +187,7 @@ zyapi.ytdl(link)
 ```
 ## ```Facebook```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const link = 'Link Facebook -_-'
 
 zyapi.fbdown(link)
@@ -198,7 +198,7 @@ zyapi.fbdown(link)
 
 ## ``` Play Store```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const judul = 'Wibu'
 
 zyapi.playstore(judul)
@@ -209,7 +209,7 @@ zyapi.playstore(judul)
 
 ## ```Lirik Lagu```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const judul = ' the nights'
 
 zyapi.lirik(judul)
@@ -220,7 +220,7 @@ zyapi.lirik(judul)
 
 ## ```Tebak Gambar```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 
 zyapi.tebakgambar()
     .then(result => {
@@ -230,7 +230,7 @@ zyapi.tebakgambar()
 
 ## ```Komik```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const judul = 'Naruto'
 
 zyapi.komiku(judul)
@@ -241,7 +241,7 @@ zyapi.komiku(judul)
 
 ## ```Link WhatsApp```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const judul = 'Wibu'
 
 zyapi.linkwa(judul)
@@ -252,7 +252,7 @@ zyapi.linkwa(judul)
 
 ## ```Wattpad```
 ``` 
-const zyapi = require('yuzzu-api');
+const zyapi = require('kotz-api');
 const judul = 'hate'
 
 zyapi.wattpad(judul)
