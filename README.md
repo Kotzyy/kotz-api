@@ -12,32 +12,32 @@
   <a href="https://github.com/Kotzyy"><img title="Author" src="https://img.shields.io/badge/Kotz-red.svg?style=for-the-badge&logo=github" /></a>
 </p>
 <p align="center">
-  <a href="https://instagram.com/bala.dasa_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
-  <a href="https://wa.me/6281337541779"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /><br>
+  <a href="https://instagram.com/Kotzyy67"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://wa.me/6281325994066"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /><br>
 </p>
 
 ## ```INSTALL And UNINSTALL```
-> npm install yuzzu-api
+> npm install kotz-api
 >  
-> npm uninstall yuzzu-api
+> npm uninstall kotz-api
 
 
 ## ```Instagram```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const link = 'https://www.instagram.com/p/CVNkCZphLDI/?utm_medium=copy_link'
 
-yz.igdl(link)
+zyapi.igdl(link)
     .then(result => {
      console.log(result)
 });
 ```
 ## ```Wiki```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const judul = 'indonesia'
 
-yz.wiki(judul)
+zyapi.wiki(judul)
     .then(result => {
      console.log(result)
 });
@@ -45,10 +45,10 @@ yz.wiki(judul)
 
 ## ```MediaFire```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const link = 'https://www.mediafire.com/file/sazboe4v31szd0m/b%252Atch-bot.zip/file'
 
-yz.mediafire(link)
+zyapi.mediafire(link)
     .then(result => {
      console.log(result)
 });
@@ -56,10 +56,10 @@ yz.mediafire(link)
 
 ## ```Tik Tok```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const link = 'https://vt.tiktok.com/ZSeFf3Akc'
 
-yz.tiktok(link)
+zyapi.tiktok(link)
     .then(result => {
      console.log(result)
 });
@@ -67,10 +67,10 @@ yz.tiktok(link)
 
 ## ```Herodetail```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const hero = 'Kagura'
 
-yz.herodetail(hero)
+zyapi.herodetail(hero)
     .then(result => {
      console.log(result)
 });
@@ -78,9 +78,9 @@ yz.herodetail(hero)
 
 ## ```Herolist```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 
-yz.herolist()
+zyapi.herolist()
     .then(result => {
      console.log(result)
 });
@@ -88,11 +88,11 @@ yz.herolist()
 
 ## ```Shoppe```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const judul = 'Baju'
 const limit = '10'
 
-yz.shoppe(judul, limit)
+zyapi.shoppe(judul, limit)
     .then(result => {
      console.log(result)
 });
@@ -100,10 +100,10 @@ yz.shoppe(judul, limit)
 
 ## ```Otaku```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const judul = 'Naruto'
 
-yz.otaku(judul)
+zyapi.otaku(judul)
     .then(result => {
      console.log(result)
 });
@@ -111,10 +111,10 @@ yz.otaku(judul)
 
 ## ```Film Search```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const judul = 'Raya'
 
-yz.film(judul)
+zyapi.film(judul)
     .then(result => {
      console.log(result)
 });
@@ -122,9 +122,9 @@ yz.film(judul)
 
 ## ```Covid```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 
-yz.covid()
+zyapi.covid()
     .then(result => {
      console.log(result)
 });
@@ -132,10 +132,10 @@ yz.covid()
 
 ## ```Twitter```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const link = 'Link Twitter -_-'
 
-yz.twitter(link)
+zyapi.twitter(link)
     .then(result => {
      console.log(result)
 });
@@ -143,10 +143,10 @@ yz.twitter(link)
 
 ## ```Pinterest```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const judul = 'Anime'
 
-yz.pinterest(judul)
+zyapi.pinterest(judul)
     .then(result => {
      console.log(result)
 });
@@ -154,10 +154,10 @@ yz.pinterest(judul)
 
 ## ```IG Story```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const user = 'jeromepolin'
 
-yz.igstory(user)
+zyapi.igstory(user)
     .then(result => {
      console.log(result)
 });
@@ -165,10 +165,10 @@ yz.igstory(user)
 
 ## ```IG Stalk```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const user = 'jeromepolin'
 
-yz.igstalk(link)
+zyapi.igstalk(link)
     .then(result => {
      console.log(result)
 });
@@ -177,20 +177,20 @@ yz.igstalk(link)
 
 ## ```YouTube```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const link = 'https://youtu.be/NuaJynwvdIE'
 
-yz.ytdl(link)
+zyapi.ytdl(link)
     .then(result => {
      console.log(result)
 });
 ```
 ## ```Facebook```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const link = 'Link Facebook -_-'
 
-yz.fbdown(link)
+zyapi.fbdown(link)
     .then(result => {
      console.log(result)
 });
@@ -198,10 +198,10 @@ yz.fbdown(link)
 
 ## ``` Play Store```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const judul = 'Wibu'
 
-yz.playstore(judul)
+zyapi.playstore(judul)
     .then(result => {
      console.log(result)
 });
@@ -209,10 +209,10 @@ yz.playstore(judul)
 
 ## ```Lirik Lagu```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const judul = ' the nights'
 
-yz.lirik(judul)
+zyapi.lirik(judul)
     .then(result => {
      console.log(result)
 });
@@ -220,9 +220,9 @@ yz.lirik(judul)
 
 ## ```Tebak Gambar```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 
-yz.tebakgambar()
+zyapi.tebakgambar()
     .then(result => {
      console.log(result)
 });
@@ -230,10 +230,10 @@ yz.tebakgambar()
 
 ## ```Komik```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const judul = 'Naruto'
 
-yz.komiku(judul)
+zyapi.komiku(judul)
     .then(result => {
      console.log(result)
 });
@@ -241,10 +241,10 @@ yz.komiku(judul)
 
 ## ```Link WhatsApp```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const judul = 'Wibu'
 
-yz.linkwa(judul)
+zyapi.linkwa(judul)
     .then(result => {
      console.log(result)
 });
@@ -252,10 +252,10 @@ yz.linkwa(judul)
 
 ## ```Wattpad```
 ``` 
-const yz = require('yuzzu-api');
+const zyapi = require('yuzzu-api');
 const judul = 'hate'
 
-yz.wattpad(judul)
+zyapi.wattpad(judul)
     .then(result => {
      console.log(result)
 });
