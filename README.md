@@ -1,15 +1,15 @@
 <div align="center">
 <img src="https://i.pinimg.com/736x/9c/3b/4c/9c3b4c820f692afdf10b60ec0a022ae4.jpg" alt="Yuzzu" width="170" />
 
-## YUZZU-API'S
+## KOTZ-API'S
 
 </div>
 
 <p align="center">
-<a href="##"><img title="yuzzu-apis" src="https://img.shields.io/static/v1?label=package&message=yuzzu-apis&color=red"></a>
+<a href="##"><img title="kotz-api" src="https://img.shields.io/static/v1?label=package&message=kotz-api&color=red"></a>
 </p>
 <p align="center">
-  <a href="https://youtube.com/c/YuzzuKamiyaka"><img title="Author" src="https://img.shields.io/badge/YouTube-YuzzuKamiyaka-red.svg?style=for-the-badge&logo=youtube" /></a>
+  <a href="https://github.com/Kotzyy"><img title="Author" src="https://img.shields.io/badge/Kotz-red.svg?style=for-the-badge&logo=github" /></a>
 </p>
 <p align="center">
   <a href="https://instagram.com/bala.dasa_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
