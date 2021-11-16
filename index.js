@@ -21,7 +21,7 @@ const {
 	komiku,
 	linkwa,
 	wattpad
-} = require('./lib/main')
+} = require('./plugin/main')
 
 module.exports.igdl = igdl
 module.exports.wiki = wiki
